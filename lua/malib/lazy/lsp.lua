@@ -32,6 +32,10 @@ return {
                 "tsserver",
                 "jsonls",
                 "eslint",
+                "cmake",
+                "cssls",
+                "html",
+                "sqlls"
             },
             handlers = {
                 function(server_name) -- default handler (optional)
