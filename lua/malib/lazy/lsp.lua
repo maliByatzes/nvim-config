@@ -28,14 +28,11 @@ return {
             ensure_installed = {
                 "lua_ls",
                 "clangd",
-                "tailwindcss",
                 "tsserver",
                 "jsonls",
                 "eslint",
                 "cmake",
-                "cssls",
-                "html",
-                "sqlls"
+                "html"
             },
             handlers = {
                 function(server_name) -- default handler (optional)

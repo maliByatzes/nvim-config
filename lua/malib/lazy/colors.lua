@@ -1,5 +1,5 @@
 function ColorMyPencils(color)
-  color = color or "neofusion"
+  color = color or "ayu"
   vim.cmd.colorscheme(color)
 
   vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
@@ -81,6 +81,15 @@ return {
     name = "gruvbox",
     config = function()
       vim.cmd("colorscheme gruvbox")
+
+      ColorMyPencils()
+    end
+  },
+  {
+    'ayu-theme/ayu-vim',
+    name = "ayu",
+    config = function()
+      vim.cmd("colorscheme ayu")
 
       ColorMyPencils()
     end
