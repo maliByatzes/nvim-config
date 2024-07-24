@@ -32,7 +32,8 @@ return {
                 "jsonls",
                 "eslint",
                 "cmake",
-                "html"
+                "html",
+                "hls"
             },
             handlers = {
                 function(server_name) -- default handler (optional)
